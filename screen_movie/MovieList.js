@@ -39,7 +39,7 @@ export default class MovieList extends Component{
                 {/* 4. 다운로드순 */}
                 <SubCatalogList title="다운로드순" url={downloadUrl} onPress={id=>this.props.navigation.navigate('MovieDetail',{id, })}></SubCatalogList>
                 
-            </ScrollView>
+            </ScrollView> 
         );
     }
 
